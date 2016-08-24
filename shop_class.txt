@@ -1,6 +1,5 @@
 -----------------------------------------------------
 PRACTICE PROBLEM: Creating a Shop class
-by Sally Park
 -----------------------------------------------------
 
 THINGS TO PAY ATTENTION TO: 
