@@ -29,7 +29,7 @@ Q7. Write a method to print the contents of your inventory to the console in a u
 
 Q8. Suppose that you want to allow patrons of your store to have membership IDs. First, write a variable to store all of the IDs, and make it readable.
 
-Q9. Write a method that generates IDs for a given name, following the algorithm given below. Make sure to hvae the method return the ID after adding the ID to the ID log that you wrote in Q8.
+Q9. Write a method that generates IDs for a given name, following the algorithm given below. Make sure to have the method return the ID after adding the ID to the ID log that you wrote in Q8.
 
   ALGORITHM: Take a string (assume it has no spaces, and ignore case) and look up each character in the following dictionary:
   
