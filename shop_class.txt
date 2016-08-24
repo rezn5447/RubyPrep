@@ -1,0 +1,46 @@
+-----------------------------------------------------
+PRACTICE PROBLEM: Creating a Shop class
+by Sally Park
+-----------------------------------------------------
+
+THINGS TO PAY ATTENTION TO: 
+- When should you make new variables for things, and where should you initialize/update them?
+- When making variables, what data types are most appropriate to initialize them as?
+- How many arguments should a method take? 0? 1? 2?
+- What should a method return?
+- How to write an efficient algorithm (try passing in an example, what should the computer do procedurally?)
+- How to iterate through arrays/hashes/strings
+
+REMEMBER TO WRITE DRIVER CODE FOR EACH QUESTION TO CHECK THAT YOUR CODE WORKS! :D
+
+Q1. Create a Shop class. Every instance of your class should have a name and a location that are decided when your shop is created.
+
+Q2. Allow your shop's name to be read and changed. Allow your shop's location to be read but not changed.
+
+Q3. A shop should have an inventory of items, and these items should have corresponding prices. With these facts in mind, create an inventory variable unique to each instance of your class, and such that it can be accessed by other instance methods.
+
+Q4. Add an instance method for your Shop class that adds an item and its price to your inventory from Q3.
+
+Q5. A shop should be able to sell items in its inventory! Create a variable to keep track of how much money any instance of Shop class has earned.
+
+Q6. Add an instance method for your Shop class called sell_item that deletes an item from your inventory, adds its price to your cash register variable from Q5, and returns true.
+  Make sure to handle the case where if you try to sell an item that doesn't exist in your inventory, you print an error message to the console and have the method return false.
+  
+Q7. Write a method to print the contents of your inventory to the console in a user-friendly, legible way.
+
+Q8. Suppose that you want to allow patrons of your store to have membership IDs. First, write a variable to store all of the IDs, and make it readable.
+
+Q9. Write a method that generates IDs for a given name, following the algorithm given below. Make sure to hvae the method return the ID after adding the ID to the ID log that you wrote in Q8.
+
+  ALGORITHM: Take a string (assume it has no spaces, and ignore case) and look up each character in the following dictionary:
+  
+    A B C D E F G H I J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z
+    1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+    
+  Concatenate all the results, in order.
+  
+  EXAMPLE: "Sally" becomes 191121225 because "S" goes to 19, "a" goes to 1, "l" goes to 12, "l" goes to 12, and "y" goes to 25
+  
+(Bonus Q10:) Find a way to account for strings with spaces. 
+
+  EXAMPLE: We want "Sally Park" to become 191121225 1611811 since "P" goes to 16, "a" goes to 1, "r" goes to 18, and "k" goes to 11
